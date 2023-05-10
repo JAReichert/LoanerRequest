@@ -38,7 +38,7 @@
         <message_html><![CDATA[<p>Dear ${u_reference_1}<br /><br /><br /><br />You reservation is scheduled to start at ${start_date}.&nbsp; You are scheduled to return the ${item_type} on: ${end_date}.</p>
 <p>Sincerely,&nbsp;</p>
 <p>Management</p>
-<p>&nbsp;</p>]]></message_html>
+<p>${mail_script:x_cdltd_loaner_req_loaner_request_script_2}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Loaner Item Pick Up</name>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ddac708b0b2a5107f44a4592417afa6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Loaner Item Pick Up</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">a732b536b0a261107f44a4592417af96</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Loaner Request">a732b536b0a261107f44a4592417af96</sys_scope>
         <sys_update_name>sysevent_email_action_1ddac708b0b2a5107f44a4592417afa6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-09 20:16:15</sys_updated_on>
+        <sys_updated_on>2023-05-10 16:20:39</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
